@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.subscriptions {
+    margin: 3px;
+    min-height: 600px;
+    border-radius: 5px;
+    opacity: 60%;
+    text-align: center;
+}
+
+#tab1, #tab2, #tab3, #tab4 {
+    width: 20%;
+    background-color: white;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #0005;
+    line-height: 50px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 30px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+}
+
+.navbar ul li:hover{
+    background-color:#088;
+  }
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+
+body, html {
+height: 100%;
+}
+  
+.bg {
+    background-image: url("../images/scenery.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dragon {
+    width: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.price {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.content {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: goldenrod;
+}
+
+
